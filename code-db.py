@@ -4,7 +4,7 @@ from lib.common import log
 from lib.constant import *
 from lib.sys import getClipboardText
 from lib.file import fileWrite
-from lib.db import DB
+from lib.db import *
 # print getClipboardText()
 from mako.template import Template
 # import MySQLdb
