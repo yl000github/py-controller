@@ -179,8 +179,10 @@ def key_input(str=''):
      time.sleep(0.01)
 
 ##if __name__ == "__main__":
-while 1:
-    mouse_click(800,600)
-    time.sleep(5)
-    str = 'hello'
-    key_input(str)
+# while 1:
+#     mouse_click(800,600)
+#     time.sleep(5)
+#     str = 'hello'
+#     key_input(str)
+
+print get_mouse_point()
