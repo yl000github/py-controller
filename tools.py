@@ -13,8 +13,8 @@ def killPort(port):
     print ret_list
     process_pid = ret_list[-1]
     print 'process_pid',process_pid
-    os.system("taskkill /pid "+process_pid+" /F")
+    os.system("taskkill /pid "+str(process_pid)+" /F")
 #     os.system("kill -9 "+process_pid)
 
 
-killPort(7080)
+killPort("18080")

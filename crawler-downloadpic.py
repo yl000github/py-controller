@@ -44,7 +44,9 @@ def savePic(url,dir,headers):
 if __name__ == "__main__":
     print "开始"
 #     TODO
-    filepath="crawler-tmp/crawler-mmjpg-2.txt"
+    filepath="crawler-tmp/crawler-baiduimg-1.txt"
+#     filepath="crawler-tmp/crawler-jandan-1.txt"
+#     filepath="crawler-tmp/crawler-mmjpg-2.txt"
 
 #     读取配置
     c=fileRead(filepath)

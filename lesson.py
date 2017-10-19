@@ -106,3 +106,18 @@ jsonData = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
 
 text = json.loads(jsonData)
 print text['a']
+
+
+obj={
+	'dd':'121'
+	}
+# if obj['dd1'] is None:
+# 	print 'is'
+# else:
+# 	print 'no'
+print obj.get('dd1','123')
+
+
+arr=[1]
+arr.append(None)
+print arr

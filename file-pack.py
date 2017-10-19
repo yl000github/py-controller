@@ -84,6 +84,7 @@ config={
         "python":[
                      "c:/Python27",
                      "C:/Users/Administrator/Downloads/python-2.7.13.msi",
+                     "C:/Users/Administrator/Downloads/python-3.6.2.exe",
                      ],        
 }
 if __name__ == "__main__":
